@@ -35,6 +35,10 @@ MISTRAL_API_KEY="votre_cle_api"
 python BatchPdfConv.py
 ```
 
+```bash
+streamlit run streamlit_app.py
+```
+
 3. Les résultats sont générés en `.md`
 
 
