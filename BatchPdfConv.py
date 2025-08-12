@@ -10,9 +10,9 @@ load_dotenv()
 
 
 # Configuration
-DOC_DIR = "doc"
-DB_CSV = "processed_files.csv"
-LOG_FILE = "conversion.log"
+DOC_DIR = "input"
+DB_CSV = "output/processed/processed_files.csv"
+LOG_FILE = "output/logs/conversion.log"
 MAX_RETRIES = 5
 INITIAL_BACKOFF = 1  # in seconds
 
